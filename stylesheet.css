@@ -1,0 +1,31 @@
+* {
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+header {
+    position: top;
+    text-align: center;
+}
+nav a.active {
+    color: darkslategrey;
+    background-color: white;
+}
+nav a:hover {
+    color: darkslategray;
+    background-color: white;
+}
+nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+    background-color: darkslategrey;
+  }
+  nav {
+    overflow: hidden;
+    background-color: darkslategrey; 
+}
