@@ -1,11 +1,22 @@
 * {
-    background-color: darkcyan;
+    background-color: rgba(29,173,181,255);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: left;    
 }
 header {
     position: top;
     text-align: center;
+}
+h1 {
+    text-align: center;
+}
+  nav {
+    display: flex; 
+    overflow: hidden;
+    background-color: darkslategrey;
+    gap: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 nav a.active {
     color: darkslategrey;
@@ -15,17 +26,16 @@ nav a:hover {
     color: darkslategray;
     background-color: white;
 }
-nav a {
-    float: left;
-    display: block;
+nav > a {
+    display: inline-block;
     text-align: center;
-    padding: 10px 20px;
     text-decoration: none;
     font-size: 17px;
     color:white;
     background-color: darkslategrey;
   }
-  nav {
-    overflow: hidden;
-    background-color: darkslategrey; 
+#island {
+width: 100%;
+height: 650px;
+position:top;
 }
