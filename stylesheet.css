@@ -2,6 +2,7 @@
     background-color: rgba(29,173,181,255);
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;    
+    font-size: large;
 }
 header {
     position: top;
@@ -9,6 +10,10 @@ header {
 }
 h1 {
     text-align: center;
+    font-size: xx-large;
+    color:aliceblue;
+    font-style: italic;
+    font-family: Lucida, serif;
 }
   nav {
     display: flex; 
@@ -30,7 +35,7 @@ nav > a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
+    font-size: larger;
     color:white;
     background-color: darkslategrey;
   }
@@ -38,4 +43,21 @@ nav > a {
 width: 100%;
 height: 650px;
 position:top;
+}
+h2 {
+    color:aliceblue;
+    text-decoration: underline;
+    font-size: large;
+}
+img {
+    width: 300px;
+    padding: 5px;
+    float: right;
+}
+footer {
+    position: bottom;
+}
+ a:hover {
+    color: darkslategray;
+    background-color: white;
 }
