@@ -2,7 +2,9 @@
     background-color: rgba(29,173,181,255);
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;    
-    font-size: large;
+}
+html {
+    font-size: 1rem;
 }
 header {
     position: top;
@@ -10,7 +12,7 @@ header {
 }
 h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 2rem;
     color:aliceblue;
     font-style: italic;
     font-family: Lucida, serif;
@@ -35,7 +37,7 @@ nav > a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: larger;
+    font-size: 1.3rem;
     color:white;
     background-color: darkslategrey;
   }
@@ -47,7 +49,7 @@ nav > a {
 h2 {
     color:aliceblue;
     text-decoration: underline;
-    font-size: large;
+    font-size: ;
 }
  a:hover {
     color: darkslategray;
@@ -89,4 +91,8 @@ h2 {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+footer {
+    font-size: 0.5rem;
+    text-align: center;
 }
